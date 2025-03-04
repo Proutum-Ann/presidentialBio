@@ -1,4 +1,45 @@
+body {
+    background-color: #e7d8ff;
+    font-family: "stevie-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 h2 {
     font-size: 30px;
     text-align: center;
+    font-family: "tt-alientz-serif", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#press-quote {
+    font-family: "basic-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+a.nav-link {
+    transition: 0.5s;
+    color: #fff!important;
+    font-family: "basic-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a.nav-link:hover {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar, footer {
+    background-color: rgb(83, 52, 255);
+    margin-bottom: 2%
+}
+
+footer {
+    padding-top: 2%;
+    margin-top: 2%;
+    margin-bottom: -25px;
+    color: white!important
 }
